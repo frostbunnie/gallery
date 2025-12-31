@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>yǒu gallery | Contemporary Art Space</title>
+    <meta name="description" content="yǒu gallery is a minimalist, bilingual contemporary art gallery featuring immersive exhibitions, artists, and art fairs. Located in Beijing 798 Art Zone." />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      body {
+        background-color: #ffffff;
+        color: #1a1a1a;
+        font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      }
+
+      h1, h2, h3, .serif-font {
+        font-family: "Didot", "Bodoni MT", "Times New Roman", "Songti SC", "SimSun", serif;
+      }
+
+      .fade-in {
+        animation: fadeIn 0.8s ease-in-out forwards;
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    </style>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
